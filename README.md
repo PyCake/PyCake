@@ -14,3 +14,7 @@ Currently PyCake is in version Magnum PY 1.0.0 and is being worked on continuall
 PyCake is currently scripted in Python (hence Py Cake). If you can/will translate it into another language that makes it easier to use please let me know! Anyone who can translate it into a more easy-to-use language will be added to the team and thanked in the credits!
 # Can I help?
 Yes! Of course! Simply let me know and tell me what you can do and I will let you know if I wil accept the changes!
+# Requirements:
+You MUST have the latest version of Python, and you must also have IDLE. 
+# How to use:
+Simply right click on the download file named: PyCake.py and then select open with IDLE. You may have to click the Other... button and then find the IDLE app.
