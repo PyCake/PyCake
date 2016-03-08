@@ -18,3 +18,5 @@ Yes! Of course! Simply let me know and tell me what you can do and I will let yo
 You MUST have the latest version of Python, and you must also have IDLE. 
 # How to use:
 Simply right click on the download file named: PyCake.py and then select open with IDLE. You may have to click the Other... button and then find the IDLE app.
+# Report ALL bugs
+Please, as PyCake is a new project, report __ANY__ bugs you encounter in the issues section, Thank You! 
