@@ -1,7 +1,7 @@
 # PyCake
 PyCake is an old-school assistant that works together with your OS to provide you with an awesome user experience!
 # What is PyCake?
-PyCake is a program acts like an assistant to you!
+PyCake is a program that acts like an assistant to you!
 # What can PyCake do?
 PyCake can Create, Rename, Delete, Read the contents of, and Move files. He can also List the items in a directory (folder), get info about your computer (nothing personal or private just info about its capabilities).
 # Is that it?
