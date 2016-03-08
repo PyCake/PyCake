@@ -243,5 +243,5 @@ if __name__ =="__main__":
         else:
             print("That is an unknown command. Please use only C, D, LD, or R.")
             Main()
-        LogHist("Main Programs script cycle complete!")
+        LogHist("Main Programs Script cycle complete!")
     Main()
