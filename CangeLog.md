@@ -1,5 +1,5 @@
 # -=Magnum PY 1.0.0=-
-[3:3:16]First Pre-release! 
+[3:3:16]First Pre-release!! 
 # -=Magnum PY 1.2.0=-
 [3:8:16]Next Pre-Release of PyCake. Includes bug fixes, new features, more! 
 # -=PyLoDough 1.3.6=-
