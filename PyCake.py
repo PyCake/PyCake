@@ -29,7 +29,6 @@ def getHistory():
         f = open("/User Information/Pycake/History.log", "r")
         hist = f.read()
         print(hist)
-    
 def setupJarvis():
     if not os.path.exists("/User Information/PyCake/"):
         os.makedirs("/User Information/PyCake/")
