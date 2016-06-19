@@ -20,7 +20,7 @@ def error():
         print("Error#*@%$&!%@$*!#&$&*|||||||/nReconciling systems.../nOk Reconciled, all systems fixed!")
         Main()
         raise TypeError("Somethings gone wrong :/ Please try again.")
-        
+
 def __init__ ():
     setupJarvis()
     f = open("/User Information/PyCake/Name.txt", "r")
@@ -65,9 +65,9 @@ def createFile(dest):
     name = input("What do you want this files name to be? ")
     extension = input("What do you want for the files extension? (eg .txt .html etc.) ")
     date = t.localtime(t.time())
-    date1 = "%d-%d-%d" %(date[1], date[2], (date[0] %100)) 
+    date1 = "%d-%d-%d" %(date[1], date[2], (date[0] %100))
     #FileName= Month_Day_Year
-    name = name + extension 
+    name = name + extension
 
     if not (path.isfile(dest + name)):
         Info = input("What do you want in the file? ")
@@ -90,7 +90,7 @@ def listDir(diry):
     print("done")
 
 def moveFile(dets):
-    from1 = dets 
+    from1 = dets
     to1 = input("Where should the file be moved to?")
     shutil.move(from1, to1)
     LogHist("Moved the file " + from1 + " to " + to1)
@@ -210,7 +210,7 @@ if __name__ =="__main__":
             Main()
         elif (c == "help"):
             print(nickname + ", I will do my best!")
-            print("Use C to create a file, LD to list the items in a directory, D to delete a file, R to read a file, M to move a file, RN to rename a file, sys check to check all PyCake systems, stop to stop the script, sys details to get the details of your computers systems, and S to get the size of a file.") 
+            print("Use C to create a file, LD to list the items in a directory, D to delete a file, R to read a file, M to move a file, RN to rename a file, sys check to check all PyCake systems, stop to stop the script, sys details to get the details of your computers systems, and S to get the size of a file.")
             LogHist("Needed and got help")
             Main()
         elif (c == "S"):
