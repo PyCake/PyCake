@@ -51,7 +51,6 @@ def setupJarvis():
         f = open("/User Information/PyCake/History.log", "w")
         f.close()
         print("Ok ," + nickname + ", PyCake is set up and running version " + vv)
- 
 def createFile(dest):
     """
     The script creates a txt file at the passed location,
@@ -63,7 +62,6 @@ def createFile(dest):
     date1 = "%d-%d-%d" %(date[1], date[2], (date[0] %100))
     #FileName= Month_Day_Year
     name = name + extension
-
     if not (path.isfile(dest + name)):
         Info = input("What do you want in the file? ")
         f = open(dest + name, "w")
@@ -72,18 +70,15 @@ def createFile(dest):
         datestuff = stamp + str(date1)
         f.write(datestuff)
         f.close()
-
 def deleteFile(file):
     name = input("delete which file?")
 
     if (path.isfile(file + name)):
         os.remove(file + name)
-
 def listDir(diry):
     print("Scanning...")
     print(os.listdir(diry))
     print("done")
-
 def moveFile(dets):
     from1 = dets
     to1 = input("Where should the file be moved to?")
@@ -139,7 +134,6 @@ def getLog():
         f = open("/User Information/PyCake/Log.log", "r")
         q = f.read()
         print(q)
-    
 if __name__ =="__main__":
     setupJarvis()
     def Main():
@@ -147,7 +141,6 @@ if __name__ =="__main__":
                 Main1()
             except:
                 error()
-                
     def Main1():
         f = open("/User Information/PyCake/Name.txt", "r")
         nickname = f.read()
