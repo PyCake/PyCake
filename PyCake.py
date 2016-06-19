@@ -3,10 +3,8 @@ from os import path
 import os
 from os import listdir
 import shutil
-import tkinter
 import platform
 import urllib.request
-import re
 
 def crash():
         i = ctypes.c_char("a")
@@ -15,12 +13,10 @@ def crash():
         while True:
                 j[c] = "a"
                 c += 1
-        j
 def error():
         print("Error#*@%$&!%@$*!#&$&*|||||||/nReconciling systems.../nOk Reconciled, all systems fixed!")
         Main()
         raise TypeError("Somethings gone wrong :/ Please try again.")
-
 def __init__ ():
     setupJarvis()
     f = open("/User Information/PyCake/Name.txt", "r")
